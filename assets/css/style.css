@@ -229,18 +229,21 @@ padding: 16px;
   .container{
     margin-bottom: 80px; 
   }
-  .footer-index{
-
-  }
+  .main-section{
+padding: 10px; 
+}
+.footer-index{
+  margin-bottom: 0px;
+}
 }
 @media screen and (min-width: 768px) {
   
  .navHeader{
    position: static;
- }
-  .footer-index{
-    bottom: 0px;
-  }
+    }
+    .footer-index{
+      margin-bottom: 0px;
+    }
 }
 @media screen and (min-width: 980px) {
   
@@ -248,7 +251,6 @@ padding: 16px;
     position: static;
   }
    .footer-index{
-     bottom: 0px;
+     margin-bottom: 0px;
    }
  }
- 
