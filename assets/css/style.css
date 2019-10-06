@@ -218,7 +218,7 @@ input[type=submit] {
 
 @media screen and (min-width: 640px) {
   .navLinks{
-padding: 10px;
+padding: 16px;
 }
   #logo{
     margin-left: -10px;
@@ -229,4 +229,26 @@ padding: 10px;
   .container{
     margin-bottom: 80px; 
   }
+  .footer-index{
+
+  }
 }
+@media screen and (min-width: 768px) {
+  
+ .navHeader{
+   position: static;
+ }
+  .footer-index{
+    bottom: 0px;
+  }
+}
+@media screen and (min-width: 980px) {
+  
+  .navHeader{
+    position: static;
+  }
+   .footer-index{
+     bottom: 0px;
+   }
+ }
+ 
